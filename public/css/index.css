@@ -1,0 +1,26 @@
+body{margin:0;background:url('../img/tweed.png');font-family:'Montserrat',sans-serif;font-size:100%;font-weight:400;color:white}
+a:link,a:visited{color:#ddd;text-decoration:none;border-bottom:1px dotted #ddd}
+a:hover,a:active{color:#ff8000;border-bottom:1px solid #ff8000}
+.main{max-width:960px;margin:0 auto}
+footer{padding:100px 0}
+.logo{max-width:744px !important}
+.splash{background:url('../img/school_alt.jpg') no-repeat center top fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;text-align:center;padding:40px}
+.mission-statement{text-align:center;font-size:2.5em;color:white;background:url('../img/sym_white.png') no-repeat center center;padding:70px 0 70px 0}
+.image-back-1{background:url('../img/school.jpg') no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;padding:40px 0;text-align:center;-moz-box-shadow:inset 0 0 20px 10px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0 0 20px 10px rgba(0,0,0,0.3);box-shadow:inset 0 0 20px 10px rgba(0,0,0,0.3)}
+.image-back-1 h2{color:white}
+.white-back{background:url('../img/debut_light.png');color:#333}
+.white-back a:link{color:#999}
+.divider{border-bottom:1px solid #999;padding:5px 0}
+h2{text-align:center;color:#999;font-size:2.5em;margin:20px}
+.navbar{width:100%}
+.nav{background:#ff8000;text-align:center;margin:0;padding:0;-moz-box-shadow:0 0 5px 5px rgba(0,0,0,0.1);-webkit-box-shadow:0 0 5px 5px rgba(0,0,0,0.1);box-shadow:0 0 5px 5px rgba(0,0,0,0.1)}
+.nav li{display:inline-block}
+.nav li a{padding:20px;display:block;color:white;text-decoration:none;border:none}
+.nav li a:hover{background-color:#c86c0c;-moz-box-shadow:inset 0 0 5px 2px #b65c09;-webkit-box-shadow:inset 0 0 5px 2px #b65c09;box-shadow:inset 0 0 5px 2px #b65c09}
+.fixed{position:fixed;top:0;left:0;z-index:9999}
+.center{text-align:center}
+@media (max-width:480px){.hero-unit .pull-right{float:none;margin-top:10px}}input{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+input[type=text],input[type=email]{padding:10px;font-size:1.5em;border:none;background:#333;display:block;color:white;text-align:center;margin:0 auto;margin-bottom:10px;width:600px}
+input[type=submit]{background-color:#ff8000;border:none;padding:10px;width:600px;color:white;font-size:1.5em}
+input[type=submit]:hover{background-color:#c86c0c;-moz-box-shadow:inset 0 0 5px 2px #b65c09;-webkit-box-shadow:inset 0 0 5px 2px #b65c09;box-shadow:inset 0 0 5px 2px #b65c09}
+label{display:block}

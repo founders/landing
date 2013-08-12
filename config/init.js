@@ -46,12 +46,7 @@ var _ = require('lodash')
       var mapPath = path.join(process.cwd(), geddy.config.js.map)
         , sourceRoot = path.join(process.cwd(), 'js', 'lib')
         , sources = [
-            'html5shiv.js'
-          , 'jquery.js'
-          , 'bootstrap.js'
-          , 'flatui-radio.js'
-          , 'retina.js'
-       // , 'webfont.js'
+            'jquery.min.js'
           , 'landing.js'
           ]
           // Fix source paths

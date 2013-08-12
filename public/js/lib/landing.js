@@ -2,7 +2,8 @@ $(function() {
 	var nav = $('#main-nav'),
 		win = $(window),
 		fixed = false;
-	var navTop = nav.offset().top + nav.position().top + nav.height();
+	var navTop = nav.offset().top;
+	console.log(navTop);
 
 	//Smooth animation when clicking links
 	$('a').click(function() {
@@ -14,6 +15,7 @@ $(function() {
 
   	// Pins the navbar to the top of the page
 	win.scroll(function () {
+		console.log(win.scrollTop(), navTop);
 		if(win.scrollTop() > navTop) {
 		  if(!fixed) {
 		    nav.addClass('fixed');
