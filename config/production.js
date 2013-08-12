@@ -18,6 +18,19 @@
 
 var config = {
   detailedErrors: false
+, hostname: "0.0.0.0"
+, port: process.env.PORT || 4000
+, model: {
+    defaultAdapter: 'memory'
+  }
+, sessions: {
+    store: 'memory'
+  , key: 'sid'
+  , expiry: 14 * 24 * 60 * 60
+  }
+
+/*var config = {
+  detailedErrors: false
 , hostname: null
 , port: 4000
 , model: {
@@ -33,7 +46,7 @@ var config = {
     , port: 27017
     }
   }
-
+*/
 /* // Using Postgres as the default, with only a Postgres DB
 , model: {
     defaultAdapter: 'postgres'
