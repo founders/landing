@@ -21,6 +21,7 @@ a:hover, a:active {
 .main {
   max-width: 960px;
   margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 footer {
@@ -36,7 +37,6 @@ img {
 }
 
 .img-link img {
-  padding-bottom: 40px;
 }
 
 a.img-link img:hover {
@@ -87,10 +87,15 @@ a.img-link img:hover {
 .white-back {
   background: url('../img/debut_light.png');
   color: #333;
-}
 
-.white-back a:link {
-  color: #999;
+  a:link, a:visited {
+    color: #999;
+  }
+
+  a:hover, a:active {
+    color: #ff8000;
+    border-bottom: 1px solid #ff8000;
+  }
 }
 
 .divider {
