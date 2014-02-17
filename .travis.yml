@@ -4,3 +4,11 @@ node_js:
 services:
 - mongodb
 language: node_js
+deploy:
+  app: founders-landing
+  provider: heroku
+  api_key:
+    secure: |-
+      DiEmEKloDfW8/x4vLtaQjSZ7rnZ7YlxA0hbAP2piVvuKIm/mnWzUOEstvtOE
+      lkcMDPWoEds5+qfMJsPf6fPCWbtl/MCqq3jdmSitVqfXLpMaDqwKte3gpnEO
+      2wwgF9JLg7jD4fmy5HLAJfwwU0gHdBgjzygZSr41nQctqlgXVU0=
