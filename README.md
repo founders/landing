@@ -3,6 +3,8 @@ Landing
 
 Landing Page for the Illinois Founders Website
 
+[![Build Status](https://travis-ci.org/Illinois-Founders/landing.png?branch=master)](https://travis-ci.org/Illinois-Founders/landing)
+
 ## Contributing
 
 * Install node.js from [here](http://nodejs.org)
