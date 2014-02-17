@@ -1,6 +1,5 @@
----
 node_js:
-- "0.10"
+- '0.10'
 services:
 - mongodb
 language: node_js
@@ -8,7 +7,4 @@ deploy:
   app: founders-landing
   provider: heroku
   api_key:
-    secure: |-
-      DiEmEKloDfW8/x4vLtaQjSZ7rnZ7YlxA0hbAP2piVvuKIm/mnWzUOEstvtOE
-      lkcMDPWoEds5+qfMJsPf6fPCWbtl/MCqq3jdmSitVqfXLpMaDqwKte3gpnEO
-      2wwgF9JLg7jD4fmy5HLAJfwwU0gHdBgjzygZSr41nQctqlgXVU0=
+    secure: Y1cbf19DihJueAz5LzUkBsRNsZz13W9R9Jk0gK3Ij7aFWdBsv2PZspmP3Rqel3JobJ+1iuyGAVwwlSJNh3YPZgwwYumIZ5xSqNBuMEdWHWOaw/eO/TF8hgEK4XCjsI3sZdZ+sPslOrcFunxMbY5hYkZaZ5GVEPN1o0ZnPT6CRoI=
