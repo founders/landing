@@ -4,5 +4,5 @@ language: node_js
 deploy:
   provider: heroku
   api_key:
-    secure: Yyafk2ilfkOok/cJW7mCteZApFTLorfxTV12bNCe7F0VFZKc1PPAT62n98PryUTmnOlpTyDdSQTjgf59uROeZUtY7zjCY3pO4TOClnM1BEuhkSEljqYW44DXPJz5+s8vNXJv9ql/JV6aq+4H2O0iY22ij/bzqlDKHiBgLpCzK0k=
+    secure: IW3ipEuEnZfvuupOPy9Od0eeJVXQDZmCGCnST5moRdsWkH6U3uSO9nSqeCbaYK7ACAgpc5IeSINldbgsh/Uv8UkM7BWjqbIjG0ybg8+CV38ki6Nc8r9u//MpSWMNQb314pYuk/uhcaTkDN2jp19/DA9Jr8n4/ncSn39yTzlbjz4=
   app: founders-landing
